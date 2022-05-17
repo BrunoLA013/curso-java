@@ -6,10 +6,14 @@ public class Temperatura {
         int diferenca = 32;
         double OP02 = 5;
         double OP03 = 9;
-
         double cels = (fahrenheit - diferenca) * (OP02/OP03);
 
         System.out.printf("A temperatuda de fahrenheit em celcius é de: " + "%.1f", cels);
+
+
+        /*celcius para fahrenheit
+        * C * 1.8 = resultado + 32 = fahrenheit
+        * */
      }
 }
 
