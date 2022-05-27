@@ -4,7 +4,7 @@ public class Dowhile {
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
-        String texto = "por favor";
+        String texto = "";
         do {
             System.out.println("você precisa falar " + "\nas palavras mágicas...");
             System.out.print("Quer sair? ");
